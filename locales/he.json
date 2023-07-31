@@ -1,0 +1,16 @@
+{
+    "locale": "he-IL",
+    "messages": {
+      "Hello World": "שלום עולם",
+      "Welcome to Strapi": "ברוכים הבאים ל-Strapi",
+      "Log in": "התחבר",
+      "Sign up": "הירשם",
+      "Dashboard": "לוח המחוונים",
+      "Content": "תוכן",
+      "Users": "משתמשים",
+      "Settings": "הגדרות",
+      "Help": "עזרה",
+      "Log out": "התנתק",
+      "Content Manager": "מנהל התכנים"
+    }
+  }

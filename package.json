@@ -1,0 +1,37 @@
+{
+  "name": "test-25-06-23",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-i18n": "4.11.2",
+    "@strapi/plugin-seo": "^1.9.2",
+    "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/strapi": "4.11.2",
+    "@webbio/strapi-plugin-scheduler": "^1.0.5",
+    "mysql": "2.18.1",
+    "pg": "^8.11.1",
+    "pg-connection-string": "^2.6.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-todo": "^0.0.9"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "dab8c7ac-8872-4547-b177-af425c1dcbd4"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
