@@ -1,0 +1,9 @@
+ envVars:
+      - key: MYSQL_DATABASE
+        value: DATABASE_NAME
+      - key: MYSQL_USER
+        value: DATABASE_USERNAME
+      - key: MYSQL_PASSWORD
+        value: DATABASE_PASSWORD
+      - key: MYSQL_ROOT_PASSWORD
+      value: DATABASE_PASSWORD
