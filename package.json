@@ -17,6 +17,7 @@
     "@strapi/plugin-users-permissions": "4.11.2",
     "@strapi/strapi": "4.11.2",
     "@webbio/strapi-plugin-scheduler": "^1.0.5",
+    "custom-slug": "^2.1.1",
     "mysql2": "^3.6.0",
     "pg": "^8.11.1",
     "pg-connection-string": "^2.6.1",
