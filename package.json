@@ -21,7 +21,9 @@
     "mysql2": "^3.6.0",
     "pg": "^8.11.1",
     "pg-connection-string": "^2.6.1",
+    "slugify": "^1.6.6",
     "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-slugify": "^2.3.3",
     "strapi-plugin-todo": "^0.0.9"
   },
   "author": {

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_media_",
+  "info": {
+    "displayName": "תמונה",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "Image_URL": {
+      "type": "string"
+    }
+  }
+}
