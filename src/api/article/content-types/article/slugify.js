@@ -35,7 +35,7 @@
           if (appendChar === replacement) appendChar = ' ';
           return result + appendChar
             // remove not allowed characters
-            .replace(options.remove || /[^\w\s$*_+~.()'"!\-:@\u0590-\u05FF]+/g, '')
+            .replace(options.remove || /[^\w\s\u0590-\u05FF]+$/g, '')
         }, '');
   
       if (options.strict) {
