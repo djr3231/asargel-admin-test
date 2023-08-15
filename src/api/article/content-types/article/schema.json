@@ -40,19 +40,6 @@
       "target": "api::categorie.categorie",
       "mappedBy": "Articles"
     },
-    "slug": {
-      "type": "customField",
-      "options": {
-        "kw": "",
-        "pattern": "title"
-      },
-      "customField": "plugin::slug.slug",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "Articles_Image": {
       "type": "component",
       "repeatable": true,
@@ -62,6 +49,16 @@
         }
       },
       "component": "media.image"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

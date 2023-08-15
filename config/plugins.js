@@ -1,15 +1,15 @@
-module.exports = ({ env }) => ({
+  module.exports = ({ env }) => ({
+
     slugify: {
-        enabled: true,
-        shouldUpdateSlug: true,
-        config: {
-          contentTypes: {
-            article: {
-              field: 'slug',
-              references: 'title',
-            },
+      enabled: true,
+      config: {
+        contentTypes: {
+          article: {
+            field: 'slug',
+            references: 'title',
           },
-          
         },
-      }
+      },
+    },
+
   });
